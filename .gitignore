@@ -1,0 +1,19 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignorar datos (crudos y procesados) para no saturar Git
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Ignorar modelos entrenados
+models/*
+!models/.gitkeep
+
+# Archivos temporales de Python / sistema
+*.pyc
+.DS_Store
+
+# Dataset
+*.csv
